@@ -1,5 +1,7 @@
+import "./CreateTodoButton.css";
+
 function CreateTodoButton() {
-  return <button>x</button>;
+  return <button className="CreateTodoButton">x</button>;
 }
 
 export { CreateTodoButton };
