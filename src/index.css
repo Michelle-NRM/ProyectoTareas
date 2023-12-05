@@ -4,6 +4,8 @@ body {
   background: #f2f4f5;
   color: "1E1E1F";
   font-family: "Dosis", sans-serif;
+  background-color: #f4e1f5;
+  opacity: 0.4;
 }
 
 #root {

@@ -2,17 +2,15 @@
   background-color: #fafafa;
   position: relative;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   margin-top: 24px;
-  width: 450px;
   box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
 }
 
 .TodoItem-p {
   margin: 24px 0px 24px 24px;
-  /*width: calc(100% - 120%);*/
-  width: 150px;
+  width: calc(100% - 120px);
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -35,8 +33,7 @@
 
 .Icon-check {
   position: absolute;
-  top: 42px;
-  right: 0px;
+  left: 12px;
 }
 
 .Icon-check--active {
